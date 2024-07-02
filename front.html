@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="HTML,CSS ,NEWS,"/>
+    <meta name="description" content="Free corses wep & HTML & CSS"/>
+    <meta name="author" content="Karim akl">
+    <meta http-equiv="refresh" content="">
+    <link rel="stylesheet" href="Style2.CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        let docTitle = document.title;
+
+        window.addEventListener("blur", () => {
+            document.title = "Come back  🥺";
+        });
+
+        window.addEventListener("focus", () => {
+            document.title = docTitle;
+        });
+        </script>
+</head>
+
+<body>
+                 <!---------------------------comment----------------------------------> 
+
+           <!-- direction : can be up-down-right-left
+           behaviour : can be scroll-sliding
+           loop : how many times would it loop
+           scrollamount : controls the speed -->
+<hr>
+    <marquee behavior="scroll" direction="up-down-right-left" loop="100" scrollamount="10"><b><mark>Welcome User 🤗</mark> </b></marquee>
+<hr>
+    <h1 style="color: blue;  ">News</h1>
+    <h2 class="t1">Sports</h2> 
+    <h3 class="t2">fotbool</h3>
+    <p id="t3" >  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquam, iste corporis cumque dolor molestias, beatae quo impedit fuga explicabo eum, culpa dolores? Autem nesciunt explicabo illum dicta totam quod!</p>
+    <p id="h">hello world</p>
+    <a id="y" href="http://youtube.com"> youtube </a>
+    <a href="http://facebook.com">Facebook</a>
+    <a href="http://google.com"> Google</a>
+    <br>
+    <hr>
+    <img width="400" src="./black-and-white-imge-of-an-old-bicycle-by-the-singel-canal-amsterdam-B581EX.jpg" alt="logo">
+    <audio  controls  autoplay   >
+        <source  src="./horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <video controls loop="2"    width="400"  poster="./black-and-white-imge-of-an-old-bicycle-by-the-singel-canal-amsterdam-B581EX.jpg">
+        <source src="./Cruds.mov" type="video/mp4 " >
+        Your browser does not support the video element.
+        <track src="" kind="subtitles" srclang="en" label="english">
+    </video>
+    <hr />
+    <table  border="1">  <caption>Monthly savings</caption>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td >salare</td>
+                <td >live</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Karim</td>
+                <td>19</td>
+                <td>50000$</td>
+                <td rowspan="2">Egybt</td>
+            </tr>
+            <tr>
+                <td>mohmed</td>
+                <td>15</td>
+                <td>5000$</td>
+            </tr>
+           
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+           <td  colspan="3" > <center> <b><mark>55000$</mark> </b></center></td>
+        </tfoot>
+
+    </table>
+    <div>
+        <ul>
+            <li>Karim</li>
+            <li>mohmed</li>
+            <li>ismail</li>
+        </ul>
+    </div>
+    <div>
+        <ol type="A" reversed >
+            <li>Karim</li>
+            <li>mohmed</li>
+            <li>ismail</li>
+        </ol>
+    </div>
+    <dl> 
+        <dt>Name</dt>
+        <dd>Karim</dd>
+        <dd>mohmed</dd>
+        <dd>ismail</dd>
+    </dl>
+
+<form action="aklkarim822@gmaiol.com"  method="get"  novalidate  target="_blank">
+    <!-- novalidate  بيلغي كل خوص الفورم-->
+    <!--target="_blank" لما تيجي تبعت البيانات بيفتح ف صفحه تانيه عشان البيانات مضعش -->
+ <hr>
+  <br>
+    <dav>
+        <label >usarname</label>
+        <input type="text "required placeholder="usarname" value="aklkarim" name="usarname">
+    </dav>
+    <br>
+    <dav>
+        <label >password</label>
+        <input type="password" required>
+    </dav>
+    <dav>
+    <br>
+        <label >Email</label>
+        <input type="email" required>
+    </dav>
+    <br>
+        <label >color</label>
+        <input type="color" required >
+    </dav>
+    <br>
+        <label >range</label>
+        <input type="range" required min="0" max="10" value="2" step="2">
+    </dav>
+    <br>
+    <br>
+        <label for="number"> number</label>
+        <input type="number" required min="0" max="10" value="2" step="2">
+    </dav>
+    <br>
+    <div>
+        <input type="radio"id="K" >
+        <label for="K"> Karim</label>
+    </div>
+
+    <div>
+        <input type="radio"id="I" >
+        <label for="I"> ismail</label>
+    </div>
+
+    <div>
+        <input type="radio"id="M" >
+        <label for="M"> mohmed</label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" id="L">
+        <label for="L"> linux</label>
+    </div>
+    <div>
+        <input type="checkbox" id="M">
+        <label for="M"> mac</label>
+    </div>
+    <div>
+        <input type="checkbox" id="w">
+        <label for="W">windows</label>
+    </div>
+        <label for="book">input book  </label>
+        <select name="book" id="book">
+        <optgroup label="sec1"></optgroup>  
+        
+        <option value="1">book1</option>
+        <option value="2">book2</option>
+        <option value="3">book3</option>
+
+          <optgroup label="sec1" ></optgroup>  
+          <option value="4">book4</option>
+          <option value="5">book5</option>
+          <option value="6">book6</option>
+        </select>
+    </div>
+    <br>
+    <label for="T"> Time</label>
+    <input id="T" type="time" required>
+    
+    <label for="M"> month</label>
+    <input id="M" type="month" required>
+    <label for="D"> date</label>
+    <input id="D" type="date" required>
+<br>
+<input list="programing" name="pro">
+<datalist id="programing">
+    <option value="C++">
+    <option value="C#">
+    <option value="html">
+    <option value="CSS">
+    <option value="php">
+    <option value="java">
+</datalist>
+
+    <input type="submit">
+    <input type="reset">
+    <input type="hidden" value="Karimakl" >
+ <hr>   
+ <pre>
+    <code>
+        int min()
+        {
+            cout<<"hallo world";
+            return 0;
+        }
+    </code>
+</pre>
+<hr>
+    <p>Karim &lt; mohmed</p>
+    <p>Karim &gt; mohmed</p>
+<hr>
+<iframe src="https://elzero.org" width="100%"height="500" > </iframe>
+
+</form>
+
+     <br>
+     
+</body>
+
+</html>
